@@ -14,7 +14,7 @@ def buildImportTask(filename, destination_path):
     task.set_editor_property('destination_name', '')
     task.set_editor_property('destination_path', destination_path)
     task.set_editor_property('filename', filename)
-    task.set_editor_property('replace_existing', False)
+    task.set_editor_property('replace_existing', True)
     task.set_editor_property('save', True)
 
     return task

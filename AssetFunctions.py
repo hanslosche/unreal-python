@@ -1,5 +1,7 @@
 import unreal
 
+from importlib import *
+
 texture_tga = '/Users/hlos/testing_unit/unreal-python/Assets/texture.TGA'
 sound_wav = '/Users/hlos/testing_unit/unreal-python/Assets/sound.WAV'
 
